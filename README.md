@@ -1,1 +1,21 @@
-# resume
+# 자주 사용하는 Git 명령어
+
+- git config --global user.name "이름"
+- git config --global user.email "이메일"
+- git init
+- git status
+- git add
+  - git add .
+  - git add file
+- git commit
+  - git commit -m "commit message"
+  - git commit -am "commit message"
+- git log
+  - git log --stat
+- git restore
+  - git restore file
+  - git restore --staged file
+- git reset
+  - git reset HEAD^
+  - git reset --hard
+- git revert hash
