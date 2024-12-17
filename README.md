@@ -26,3 +26,4 @@
   - git remote -v
 - git push
   -git push -u origin master
+- git pull
