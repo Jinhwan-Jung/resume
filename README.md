@@ -1,7 +1,9 @@
 # 자주 사용하는 Git 명령어
 
-- git config --global user.name "이름"
-- git config --global user.email "이메일"
+- git config
+  - git config --global user.name "이름"
+  - git config --global user.email "이메일"
+  - git config --list
 - git init
 - git status
 - git add
@@ -19,3 +21,8 @@
   - git reset HEAD^
   - git reset --hard
 - git revert hash
+- git remote
+  - git remote add origin 주소
+  - git remote -v
+- git push
+  -git push -u origin master
