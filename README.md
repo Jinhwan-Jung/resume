@@ -26,7 +26,7 @@
 - git push
   -git push -u origin master
 - git pull
- - git pull origin master
+  - git pull origin master
 - git remote
   - git remote add origin 주소
   - git remote -v
@@ -34,9 +34,9 @@
   - git reset HEAD^
   - git reset --hard
 - git restore
-  - git restore file
-  - git restore --staged file
-- git revert hash
+  - git restore 파일
+  - git restore --staged 파일
+- git revert 해시
 - git status
  
 
