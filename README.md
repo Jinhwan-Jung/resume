@@ -25,7 +25,7 @@
 - git merge
   - git merge 브랜치
 - git push
-  -git push -u origin master
+  - git push -u origin master
 - git pull
   - git pull origin master
 - git remote
