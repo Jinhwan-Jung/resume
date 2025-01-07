@@ -7,6 +7,9 @@
   - git branch 브랜치
   - git branch -d 브랜치
 - git cherry-pick 해시
+- git clone 
+  - git clone 저장소주소
+  - git clone 저장소주소 .
 - git commit
   - git commit -m "commit message"
   - git commit -am "commit message"
