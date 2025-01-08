@@ -28,7 +28,7 @@
 - git merge
   - git merge 브랜치
 - git push
-  - git push origin master
+  - git push origin master "로컬 저장소의 master를 원격 저장소인 origin에 푸시하라"
   - git push -u origin master
 - git pull
   - git pull origin master
