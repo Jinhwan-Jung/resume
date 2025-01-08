@@ -13,6 +13,7 @@
 - git commit
   - git commit -m "commit message"
   - git commit -am "commit message"
+  - git commit --amend --> 마지막 커밋 수정
 - git config
   - git config --global init.defaultBranch main
   - git config --global user.name "이름"
@@ -28,7 +29,7 @@
 - git merge
   - git merge 브랜치
 - git push
-  - git push origin master "로컬 저장소의 master를 원격 저장소인 origin에 푸시하라"
+  - git push origin master --> 로컬 저장소의 master를 원격 저장소인 origin에 푸시하라
   - git push -u origin master
 - git pull
   - git pull origin master
@@ -42,6 +43,12 @@
   - git restore 파일
   - git restore --staged 파일
 - git revert 해시
+- git stash
+  - git stash
+  - git stash apply --> 가장 최근 스태시 적용
+  - git stash apply stash@{x} --> 특정 스태시 x만 적용
+  - git stash list --> 스태시 목록 확인
+  - git stash push -m "메시지 내용"
 - git status
  
 
