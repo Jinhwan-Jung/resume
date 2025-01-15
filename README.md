@@ -21,6 +21,8 @@
   - git config --list
 - git init
 - git log
+  - got log --all
+  - got log --all --oneline
   - git log --stat
   - git log --oneline
   - git log --oneline --branches
